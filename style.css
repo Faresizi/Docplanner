@@ -1,0 +1,155 @@
+*{ 
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00b39b;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+    font-weight: 300;
+}
+h2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.about{
+    color: #747474;
+    font-weight: 300;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 20px;
+    color: #00b39b;
+    font-weight: 300;
+}
+section{
+    display: flex;
+    justify-content: center;
+    color: #00b39b;
+    height: 50px;
+    font-weight: 300;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00b39b;
+    font-size: xx-large;
+    font-family:Work Sans, Arial, sans-serif;
+    font-weight: 300;
+}
+.p{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    color: black;
+    gap: 50px;
+  padding-top: 10%;
+  padding-inline: 15%;
+  font-family: Roboto, Arial, sans-serif;
+  height: 100%;  
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(1, 300px);
+   
+    border-color: black;
+    gap: 100px;
+    margin-inline: auto;
+    margin-top: 10%;
+}
+.child1{
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10%;
+    color: white;
+}
+.child2{
+    background-color: #3d83df;
+    border-radius: 20px;
+    display: flex; align-items: flex-start; justify-content: flex-start; flex-direction: column;
+    color: white; 
+    padding: 10px;
+
+}
+.child3{
+    background-color: #1b2734;
+    border-radius: 5px;
+    display: flex; align-items: flex-start; justify-content: flex-start; flex-direction: column;
+    color: white; 
+    padding: 10px;
+}
+    .h4{
+       font-size: medium;
+    margin: 0;
+    color: #fff;
+    padding: 5%;font-weight: 300;
+    }
+.h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5%;
+    font-size: medium;font-weight: 300;
+}
+.h5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 5%;font-weight: 300;
+}
+.h6{
+    font-size: medium;
+      color: #fff;
+    padding: 5%;
+    font-weight: 300;
+}
+.h7{
+    color: white;
+    padding: 5%;
+    font-size: medium;
+    font-weight: 300;
+    
+}
+.h8{
+    color: white;
+    padding: 5%;
+    font-size: medium;
+    font-weight: 300;
+}
+.global-local{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0%;
+    
+}
+.global{
+    color: #00b39b;
+    font-weight: 300;
+}
+.local{
+    color: #00b39b;
+    font-weight: 300;
+}
